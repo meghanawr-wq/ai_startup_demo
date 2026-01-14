@@ -52,7 +52,6 @@ def infer_startup_values_from_text(text):
     elif "ad-supported" in text:
         revenue = 3
 
-    # ✅ Make sure we close the dictionary
     return {
         "market_size_musd": market,
         "revenue_model_strength": revenue,
